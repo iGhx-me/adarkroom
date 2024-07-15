@@ -20,4 +20,4 @@ jobs:
       run: pip install polib
 
     - name: Run Python Script
-      run: python tools/po2js.py
+      run: python tools/po2js.py -../lang/adarkroom.pot
